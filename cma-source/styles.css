@@ -21,3 +21,7 @@
 @media(max-width:420px){.actions{flex-direction:column}.actions .button{width:100%;justify-content:space-between}.footer-main{column-gap:16px}.footer-consulting img{width:140px}.hero-bottom{font-size:11px}.teal{gap:8px;font-size:13px}.teal .whatsapp-icon{width:18px;height:18px;flex-basis:18px}.contact .form-note{text-align:left}}
 
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+
+/* Keep the sticky navigation opaque so the white-backed source logo blends
+   seamlessly even while the header crosses dark page sections. */
+header{background:#fff;backdrop-filter:none}
